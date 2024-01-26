@@ -112,75 +112,99 @@ i {
     font-size: 40px;
 }
 
-.section
-{
-    width: 100%;
-    height: 50vh;
-    margin: 40px 0;
-}
-.section p
-{
-    margin: 20px 0;
-    font-size: 30px;
-    color: #333333;
-    text-align: center;
-    width: 100%;
-}
-.cards
-{
+/* estilo section */
+
+.sectionPos{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 90%;
 }
-.card
-{
-    cursor: pointer;
-    margin: 0 3%;
-    width: 15%;
-    height: 80%;
-    background: white;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 10px 40px 0 #a3a3a3;
-    transition: 0.2s;
-}
-.card:hover
-{
-    height: 90%;
-}
-.card img
-{
-    z-index: 5;
-    margin: 10px 0 0 0;
-    width: 90%;
-    height: 70%;
-}
-.card .songTitle
-{
-    margin: 0;
-    font-size: 20px;
-    font-weight: 500;
-    color: #333333;
-}
-.card .artist
-{
-    margin: 10px 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: #afafaf;
-}
-.section .leftS
-{
-    margin: 0 15%;
-    width: 70%;
-    text-align: left;
-}
-footer
-{
-    width: 100%;
-    height: 35vh;
+
+.section{
     background: linear-gradient(to right, #a8cae1, #daaca7);
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content{
+    width: 1150px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .infoCan{
+    width: 700px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.infoCan .infoCanti{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.infoCan .posrep audio{
+    width: 700px;
+}
+
+.content .imgcd{
+    width: 400px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .imgcd img{
+    width: 300px;
+}
+
+.content .imgcd h4{
     margin: 0;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.infoCan .cd h4{
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.infoCanti .dc h4{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.infoCanti .dc p{
+    color:#333333;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.infoCanti .dc{
+    width: 550px;
+    display: flex;
+}
+
+.infoCanti .dc button{
+    border: none;
+    margin-right: 40px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: 1.4rem;
+}
+
+.infoCanti .dc button:hover{
+    background-color: #daaca7;
 }

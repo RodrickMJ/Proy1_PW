@@ -92,6 +92,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 541px;
+    background: linear-gradient(to right, #a8cae1, #daaca7);
 }
 
 .conteiner{
